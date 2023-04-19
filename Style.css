@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.turn_on{
+    background-color: green;
+}
+.turn_off{
+    background-color: red;
+}
+.turn_off,.turn_on{
+    width: 60px;
+    height: 40px;
+    border-radius: 4px solid black;
+    cursor: pointer;
+    
+}
+/* .pic{
+    display: none;
+} */
